@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(67, 102, 67);
+    margin: 0;
+}
+.heading {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+}
+
+nav {
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 1;
+}
+
+ul {
+    gap: 30px;
+    
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    display: flex;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+a {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+        'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+li:active {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    font-size: 1.3rem;
+    background-color: rgb(13, 13, 49);
+    color: white;
+    border: solid 2px white ;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 30px black;
+}
+
+.button:hover {
+    background-color: rgba(13, 13, 49, 0.521);
+}
+
+.name {
+    color: red;
+    font-size: 3rem !important;
+    -webkit-text-stroke: 1px black;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cont1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction {
+    color: gray;
+    opacity: 70%;
+    font-size: 1.2rem !important;
+}
+
+.info {
+    margin: 90px 0 0 50px;
+}
+
+.H1 {
+    font-size: 2.5rem;
+    margin: 0 0 40px 0;
+}
+
+.profile-pic {
+    padding-top: 50px;
+    height: 650px;
+    margin-bottom: -60px;
+    filter: drop-shadow(0 0 10px black);
+    
+}
+
+
+#contact, #Certificates {
+    height: 100vh;
+}
+
+#contact {
+    background-color: blueviolet;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .pfp-container { display: none !important; }
+    .ul-cont { display: none !important; }
+} */
+
+/* about section */
+
+#about {
+    height: 100%;
+    padding: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inf-container {
+    display: flex;
+}
+
+.inf-container2 {
+    display: grid;
+    grid-template-columns: 400px 350px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.razor-image {
+    height: 350px;
+    border-radius: 20px;
+}
+
+.burger {
+    height: 350px;
+    border-radius: 20px;
+}
+
+.inf-cont2nd {
+    display: grid;
+    grid-template-columns: 500px 400px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 150px;
+}
+
+
+/* Certificates  Section*/
+
+#Certificates {
+    background-color: chocolate;
+}
+
+
